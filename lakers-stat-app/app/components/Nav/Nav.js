@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import { lakersLogo } from "@/public/images/svgIcons";
 
 export default function Nav() {
   return (
@@ -6,7 +8,9 @@ export default function Nav() {
       <Link
         href="/"
       >
-        Laker Logo
+        <div className="h-[75px] w-[75px]">
+         { lakersLogo }
+        </div>
       </Link>
       <div>Main Nav Section</div>
       <div>Secondary Nav Section</div>
