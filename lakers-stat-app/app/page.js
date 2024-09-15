@@ -16,7 +16,7 @@ export default function Home() {
           />
 
           <Link
-            href="/stats"
+            href={`/stats/points?showAllPlayers=${false}`}
             className="absolute flex bg-black text-white bottom-[5%] rounded-md right-10 py-4 px-3 cursor-pointer hover:underline"
           >
             VIEW PLAYER STATS
