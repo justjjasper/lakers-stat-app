@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { pointsAPI, reboundsAPI, threePointersAPI } from "../../config";
 import Table from "../../components/Stats/Table";
 import ButtonSection from "../../components/Stats/ButtonSection";

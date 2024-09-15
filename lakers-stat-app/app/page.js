@@ -20,7 +20,9 @@ export default function Home() {
             className="absolute flex bg-black text-white bottom-[5%] rounded-md right-10 py-4 px-3 cursor-pointer hover:underline"
           >
             VIEW PLAYER STATS
-            { rightArrow }
+            <span className="ml-2">
+              { rightArrow }
+            </span>
           </Link>
       </section>
     </main>

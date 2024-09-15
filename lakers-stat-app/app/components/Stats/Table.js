@@ -17,16 +17,19 @@ const DataCell = ({ children }) => {
 export default function Table({ tableData, showAllPlayers, currentStat }) {
   // Implemented a switch case because each API data had different keys to access the data
   let filter = "";
-
+  let value = ""
   switch (currentStat) {
     case "points":
       filter = "pts"
+      value = "POINTS"
       break;
     case "rebounds":
       filter = "reb"
+      value = "REBOUNDS"
       break;
     case "threePointers":
       filter = "tpp"
+      value = "3P%"
       break;
     default:
       filter = "pts"
@@ -40,14 +43,14 @@ export default function Table({ tableData, showAllPlayers, currentStat }) {
 
   return (
     <div
-      className={`w-full ${showAllPlayers ? 'max-h-[400px] overflow-y-scroll' : 'overflow-auto'}`}
+      className={`w-full ${showAllPlayers ? 'max-h-[400px] overflow-y-scroll' : 'overflow-auto'} rounded-sm shadow-md`}
     >
       <table className="w-full">
         <thead>
           <tr>
             <TableHeader>NAME</TableHeader>
             <TableHeader>POSITION</TableHeader>
-            <TableHeader>VALUE</TableHeader>
+            <TableHeader>{value}</TableHeader>
           </tr>
         </thead>
         <tbody>
