@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function ButtonSection({ currentStat, showAllPlayers, }) {
   const links = [
-    { href: `/stats/points?showAllPlayers=${!showAllPlayers}`, label: 'Points', category: 'points' },
-    { href: `/stats/rebounds?showAllPlayers=${!showAllPlayers}`, label: 'Rebounds', category: 'rebounds' },
-    { href: `/stats/threePointers?showAllPlayers=${!showAllPlayers}`, label: '3 Pointers', category: 'threePointers'},
+    { href: `/stats/points?showAllPlayers=${showAllPlayers}`, label: 'Points', category: 'points' },
+    { href: `/stats/rebounds?showAllPlayers=${showAllPlayers}`, label: 'Rebounds', category: 'rebounds' },
+    { href: `/stats/threePointers?showAllPlayers=${showAllPlayers}`, label: '3 Pointers', category: 'threePointers'},
   ];
 
   return (

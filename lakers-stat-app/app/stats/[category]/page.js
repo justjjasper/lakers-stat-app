@@ -29,7 +29,7 @@ export default async function Stats({ params, searchParams }) {
         <h2 className="text-[28px] font-bold">Los Angeles Lakers Stats 2020-21</h2>
 
         <ButtonSection currentStat={currentStat} showAllPlayers={showAllPlayers}/>
-        <Table tableData={tableData} showAllPlayers={showAllPlayers} currentStat={currentStat}/>
+        <Table currentStat={currentStat} showAllPlayers={showAllPlayers} tableData={tableData}/>
       </main>
     )
   } catch(error) {
