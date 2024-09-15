@@ -10,9 +10,9 @@ const DataCell = ({ children }) => {
 
 };
 
-export default function Table({ tableData }) {
+export default function Table({ tableData, showAllPlayers }) {
   return (
-    <table>
+    <table className="border-2 border-black w-full">
       <thead>
         <tr>
           <TableHeader>NAME</TableHeader>
