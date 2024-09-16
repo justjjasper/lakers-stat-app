@@ -17,8 +17,11 @@ View the Lakers Stat App [here](http://http://20.64.250.156)!
 - **Deployment**: Azure Cloud
 
 ## Features
-- **Responsive Web Design**: The app is fully responsive, ensuring an optimal viewing experience across a variety of devices.
 - **Show All Player Stats**: Includes a feature to display detailed statistics for all players, allowing users to view comprehensive performance data.
+- **Responsive Web Design**: The app is fully responsive, ensuring an optimal viewing experience across a variety of devices.
+<div style="display: flex; justify-content: center;">
+  <img width="300" alt="Mobile Screenshot" src="https://github.com/user-attachments/assets/5c5c4cf5-e4e0-458c-9840-11f0c106d4dd">
+</div>
 
 ## Getting Started
 To get a local copy up and running, follow these steps:
