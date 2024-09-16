@@ -24,7 +24,7 @@ export default function ButtonSection({ currentStat, showAllPlayers, }) {
                 ? 'pointer-events-none border-t-[1px] border-l-[1px] border-r-[1px] font-bold shadow-md'
                 : 'bg-black text-white'
                 }
-                md:px-5 md:py-3 px-3 py-2 hover:underline rounded-sm md:text-base text-[12px]
+                md:px-5 md:py-3 px-3 py-2 hover:underline rounded-sm md:text-base xsm:text-[12px] text-[10px]
               `}
             >
                {link.label}
@@ -34,19 +34,19 @@ export default function ButtonSection({ currentStat, showAllPlayers, }) {
       </div>
 
       {/* Show All Players toggle button */}
-      <div className="bg-black text-white md:px-5 md:py-3 px-3 py-2 hover:underline rounded-sm md:text-base text-[12px]">
+      <div className="bg-black text-white md:px-5 md:py-3 px-3 py-2 hover:underline rounded-sm md:text-base xsm:text-[12px] text-[10px]">
         <Link
           href={`/stats/${currentStat}?showAllPlayers=${!showAllPlayers} `}
           scroll={false}
         >
            {showAllPlayers ?
-              <div className="flex items-center gap-2 md:min-w-[160px] justify-center">
+              <div className="flex items-center gap-2 xsm:min-w-[160px] justify-center">
                 <span>{minusSVG}</span>
                 <span className="flex justify-center">Hide All Players</span>
               </div>
               :
-              <div className="flex items-center gap-2 md:min-w-[160px] justify-center">
-                <span>{plusSVG}</span>
+              <div className="flex items-center gap-2 xsm:min-w-[160px] justify-center">
+                <span className="">{plusSVG}</span>
                 <span className="flex justify-center">Show All Players</span>
               </div>
             }

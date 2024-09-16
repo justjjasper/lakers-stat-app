@@ -6,6 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "pm2-start": "pm2 start 'sudo npm run dev'",
+    "pm2-stop": "pm2 stop 'sudo npm run dev'",
     "lint": "next lint"
   },
   "dependencies": {

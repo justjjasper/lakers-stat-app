@@ -46,7 +46,7 @@ export default function Table({ tableData, showAllPlayers, currentStat }) {
 
   return (
     <div className={`w-full ${showAllPlayers ? 'max-h-[400px] overflow-y-scroll' : 'overflow-auto'} rounded-sm shadow-md`}>
-      <table className="w-full">
+      <table className="w-full xsm:text-base text-[14px]">
         <thead>
           <tr>
             <TableHeader>NAME</TableHeader>
