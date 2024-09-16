@@ -5,10 +5,11 @@ Lakers Stat App is a responsive web application designed to showcase the top 3 s
 
 ## Visit Website 
 
-View the Lakers Stat App [here](http://http://20.64.250.156)
-<img width="1435" alt="Screen Shot 2024-09-16 at 4 12 41 PM" src="https://github.com/user-attachments/assets/0b729e68-4ae7-429c-a7e6-95bf88100a75">
-<img width="1428" alt="Screen Shot 2024-09-16 at 4 13 03 PM" src="https://github.com/user-attachments/assets/e8ff584d-3c7b-4bca-8e27-9750a33ba372">
-
+View the Lakers Stat App [here](http://http://20.64.250.156)!
+<div style="display: flex; justify-content: space-around;">
+  <img width="600" alt="Screenshot 1" src="https://github.com/user-attachments/assets/0b729e68-4ae7-429c-a7e6-95bf88100a75">
+  <img width="600" alt="Screenshot 2" src="https://github.com/user-attachments/assets/e8ff584d-3c7b-4bca-8e27-9750a33ba372">
+</div>
 
 
 ## Technologies
@@ -23,14 +24,14 @@ View the Lakers Stat App [here](http://http://20.64.250.156)
 To get a local copy up and running, follow these steps:
 
 1. **Clone the Repository**
-   ```bash
-   git clone [https://github.com/your-username/lakers-stat-app.git](https://github.com/justjjasper/lakers-stat-app.git)
-
+```bash
+git clone [https://github.com/your-username/lakers-stat-app.git](https://github.com/justjjasper/lakers-stat-app.git)
+```
 2. **Install the Node Modules**
-  ```bash
-  npm install
-  ```
+```bash
+npm install
+```
 3. **Run the Client**
-  ```bash
-  npm run dev
-  ```
+```bash
+npm run dev
+```
