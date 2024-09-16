@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
 import { pointsAPI, reboundsAPI, threePointersAPI } from "../../config";
-import Table from "../../components/Stats/Table";
-import ButtonSection from "../../components/Stats/ButtonSection";
-import FantasyDraftPromo from "../../components/FantasyDraftPromo/FantasyDraftPromo";
+import Table from "@/app/components/Stats/Table";
+import ButtonSection from "@/app/components/Stats/ButtonSection";
+import FantasyDraftPromo from "@/app/components/FantasyDraftPromo/FantasyDraftPromo";
 
 export default async function Stats({ params, searchParams }) {
   // Retrieve API data

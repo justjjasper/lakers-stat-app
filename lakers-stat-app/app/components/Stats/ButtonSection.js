@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { plusSVG, minusSVG } from "../../../public/images/svgIcons";
+import { plusSVG, minusSVG } from "@/public/images/svgIcons";
 
 export default function ButtonSection({ currentStat, showAllPlayers, }) {
   const links = [
@@ -34,14 +34,14 @@ export default function ButtonSection({ currentStat, showAllPlayers, }) {
       <div className="bg-black text-white px-5 py-3 hover:underline rounded-sm">
         <Link href={`/stats/${currentStat}?showAllPlayers=${!showAllPlayers}`}>
            {showAllPlayers ?
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 min-w-[160px] justify-center">
                 <span>{minusSVG}</span>
-                <span>Hide All Players</span>
+                <span className="flex justify-center">Hide All Players</span>
               </div>
               :
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 min-w-[160px] justify-center">
                 <span>{plusSVG}</span>
-                <span>Show All Players</span>
+                <span className="flex justify-center">Show All Players</span>
               </div>
             }
         </Link>
