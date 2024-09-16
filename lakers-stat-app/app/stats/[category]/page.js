@@ -3,6 +3,7 @@ import Image from "next/image";
 import { pointsAPI, reboundsAPI, threePointersAPI } from "../../config";
 import Table from "../../components/Stats/Table";
 import ButtonSection from "../../components/Stats/ButtonSection";
+import FantasyDraftPromo from "../../components/FantasyDraftPromo/FantasyDraftPromo";
 
 export default async function Stats({ params, searchParams }) {
   // Retrieve API data
@@ -31,6 +32,7 @@ export default async function Stats({ params, searchParams }) {
 
         <ButtonSection currentStat={currentStat} showAllPlayers={showAllPlayers}/>
         <Table currentStat={currentStat} showAllPlayers={showAllPlayers} tableData={tableData}/>
+        <FantasyDraftPromo showAllPlayers={showAllPlayers} />
       </main>
     )
   } catch(error) {
