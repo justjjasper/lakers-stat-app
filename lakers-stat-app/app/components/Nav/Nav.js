@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import PrimaryNavList from "./NavComponents/PrimaryNavList";
 import SecondaryNavList from "./NavComponents/SecondaryNavList";
 import SocialList from "./NavComponents/SocialList";
@@ -19,11 +18,9 @@ export default function Nav() {
         <PrimaryNavList />
         <SecondaryNavList />
         <SocialList />
-        <Link
-          href="#"
-        >
+        <button>
           {searchSVG}
-        </Link>
+        </button>
       </nav>
     </section>
   )
