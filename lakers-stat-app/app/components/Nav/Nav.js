@@ -9,7 +9,7 @@ import { lakersLogo } from "@/public/images/svgIcons";
 export default function Nav() {
   return (
     <section className="flex items-center px-7 bg-[#232323] h-[85px] text-white mb-5">
-      <nav className="flex items-center justify-between w-full">
+      <nav className="flex items-center justify-between w-full h-full">
         <Link
           href="/"
           >
