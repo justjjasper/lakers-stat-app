@@ -12,7 +12,6 @@ export default function Home() {
           height={580}
           width={400}
           className="h-[580px] w-full"
-          objectFit="cover"
           />
 
         <div className="absolute text-white mt-32 text-center px-3">
