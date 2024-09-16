@@ -16,7 +16,7 @@ export default function FantasyDraftPromo({ showAllPlayers }) {
         <h3 className="font-bold text-[18px]">Analyze Stats to Make Your Fantasy Draft Picks</h3>
         <p className="text-[14px] w-[50ch]">Get ahead in your fantasy draft with expert stats. Use detailed insights to make the best picks for your team.</p>
         <div className="bg-[#232323] py-3 px-4 text-white rounded-full font-bold w-[250px] self-center hover:underline">
-          <Link href="#">
+          <Link href="#" className="flex justify-center">
             COMMUNITY GUIDE FORM
           </Link>
         </div>
