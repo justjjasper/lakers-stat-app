@@ -3,8 +3,7 @@ import Image from "next/image";
 import PrimaryNavList from "./NavComponents/PrimaryNavList";
 import SecondaryNavList from "./NavComponents/SecondaryNavList";
 import SocialList from "./NavComponents/SocialList";
-
-import { lakersLogo } from "@/public/images/svgIcons";
+import { lakersLogo, searchSVG } from "@/public/images/svgIcons";
 
 export default function Nav() {
   return (
@@ -20,6 +19,11 @@ export default function Nav() {
         <PrimaryNavList />
         <SecondaryNavList />
         <SocialList />
+        <Link
+          href="#"
+        >
+          {searchSVG}
+        </Link>
       </nav>
     </section>
   )

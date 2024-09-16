@@ -35,12 +35,12 @@ export default function ButtonSection({ currentStat, showAllPlayers, }) {
         <Link href={`/stats/${currentStat}?showAllPlayers=${!showAllPlayers}`}>
            {showAllPlayers ?
               <div className="flex items-center gap-2">
-                <span>{plusSVG}</span>
+                <span>{minusSVG}</span>
                 <span>Hide All Players</span>
               </div>
               :
               <div className="flex items-center gap-2">
-                <span>{minusSVG}</span>
+                <span>{plusSVG}</span>
                 <span>Show All Players</span>
               </div>
             }
