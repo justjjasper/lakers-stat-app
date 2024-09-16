@@ -15,16 +15,16 @@ export default function Home() {
           objectFit="cover"
           />
 
-        <div className="absolute text-white mt-32 text-center">
-          <h1 className="text-[72px] font-bold leading-tight">
+        <div className="absolute text-white mt-32 text-center px-3">
+          <h1 className="md:text-[72px] text-[40px] font-bold leading-tight">
             Rise Above the Rest
           </h1>
 
-          <p className="text-[24px] my-10">Stay ahead by tracking player stats and witnessing how the top performers excel.</p>
+          <p className="md:text-[24px] text-[18px] my-10">Stay ahead by tracking player stats and witnessing how the top performers excel.</p>
 
           <Link
             href={`/stats/points?showAllPlayers=${false}`}
-            className="inline-flex bg-black text-white rounded-full py-4 px-8 cursor-pointer hover:underline"
+            className="inline-flex items-center bg-black text-white md:text-base text-[12px] rounded-full md:py-4 md:px-8 py-3 px-6 cursor-pointer hover:underline"
             >
             VIEW PLAYER STATS
             <span className="ml-1">

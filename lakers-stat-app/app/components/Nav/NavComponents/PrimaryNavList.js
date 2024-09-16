@@ -4,7 +4,7 @@ export default function PrimaryNavList() {
   const links = ["NEWS AND MEDIA", "TEAM", "SCHEDULE", "TICKETS"];
 
   return (
-    <ul className="flex gap-5">
+    <ul className="lg:flex hidden gap-5">
       {links.map((link, index) => {
         return (
           <li
