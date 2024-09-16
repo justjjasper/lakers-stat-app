@@ -3,7 +3,8 @@ import Image from "next/image";
 
 export default function FantasyDraftPromo({ showAllPlayers }) {
   return (
-    <div className={`${showAllPlayers ? "hidden" : "flex"} mt-14 items-center`}>
+    <div className={`${showAllPlayers ? "hidden" : "flex"} mt-14 items-center md:flex-row flex-col`}>
+      {/* Fantasy League Logo*/}
       <div className="w-[300px]">
         <Image
           src="/images/fantasyleague-logo.jpg"
@@ -12,6 +13,8 @@ export default function FantasyDraftPromo({ showAllPlayers }) {
           width={300}
         />
       </div>
+
+      {/* Fantasy Draft Promo Text*/}
       <div className="flex flex-col justify-between gap-5 ">
         <h3 className="font-bold text-[18px]">Analyze Stats to Make Your Fantasy Draft Picks</h3>
         <p className="text-[14px] w-[50ch]">Get ahead in your fantasy draft with expert stats. Use detailed insights to make the best picks for your team.</p>

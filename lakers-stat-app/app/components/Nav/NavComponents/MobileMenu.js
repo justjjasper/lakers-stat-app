@@ -35,7 +35,7 @@ export default function MobileMenu({ mobileMenuToggled, setMobileMenuToggled }) 
             return (
               <li
                 key={index}
-                className={`${index < 4 ? "font-bold" : "font-thin"} text-[24px] border-b-[1px] border-gray-900 px-6 py-3`}
+                className={`${index < 4 ? "font-bold" : "font-thin"} text-[24px] border-b-[1px] border-gray-900 px-6 py-3 hover:underline`}
                 >
                 <Link
                   href="#"

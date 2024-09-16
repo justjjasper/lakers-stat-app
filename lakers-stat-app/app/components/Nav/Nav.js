@@ -22,6 +22,7 @@ export default function Nav() {
             { lakersLogo }
           </div>
         </Link>
+
         <PrimaryNavList />
         <SecondaryNavList />
         <SocialList />
