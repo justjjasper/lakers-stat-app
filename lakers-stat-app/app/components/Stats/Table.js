@@ -17,6 +17,8 @@ const DataCell = ({ children }) => {
 export default function Table({ tableData, showAllPlayers, currentStat }) {
   // Implemented a switch case because each API data had different object keys to access the data
   let filter = "";
+
+  // Use switch case to have Dynamic Label for Table Header
   let value = ""
 
   switch (currentStat) {
