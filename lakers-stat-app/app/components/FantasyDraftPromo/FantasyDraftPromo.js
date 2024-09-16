@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function FantasyDraftPromo({ showAllPlayers }) {
   return (
-    <div className={`${showAllPlayers ? "hidden" : "flex"} mt-10 items-center`}>
+    <div className={`${showAllPlayers ? "hidden" : "flex"} mt-14 items-center`}>
       <div className="w-[300px]">
         <Image
           src="/images/fantasyleague-logo.jpg"

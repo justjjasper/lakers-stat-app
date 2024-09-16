@@ -27,7 +27,7 @@ export default async function Stats({ params, searchParams }) {
 
   try{
     return (
-      <main className="h-[575px] mx-60 p-10 bg-white border-2 shadow-sm rounded-md">
+      <main className="h-[600px] mx-60 p-10 bg-white border-2 shadow-sm rounded-md">
         <h2 className="text-[28px] font-bold">Los Angeles Lakers Stats 2020-21</h2>
 
         <ButtonSection currentStat={currentStat} showAllPlayers={showAllPlayers}/>
