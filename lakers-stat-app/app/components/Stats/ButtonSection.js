@@ -16,6 +16,7 @@ export default function ButtonSection({ currentStat, showAllPlayers, }) {
           <Link
             key={link.href}
             href={link.href}
+            scroll={false}
           >
             <div
               className={`
@@ -34,7 +35,10 @@ export default function ButtonSection({ currentStat, showAllPlayers, }) {
 
       {/* Show All Players toggle button */}
       <div className="bg-black text-white md:px-5 md:py-3 px-3 py-2 hover:underline rounded-sm md:text-base text-[12px]">
-        <Link href={`/stats/${currentStat}?showAllPlayers=${!showAllPlayers}`}>
+        <Link
+          href={`/stats/${currentStat}?showAllPlayers=${!showAllPlayers} `}
+          scroll={false}
+        >
            {showAllPlayers ?
               <div className="flex items-center gap-2 md:min-w-[160px] justify-center">
                 <span>{minusSVG}</span>

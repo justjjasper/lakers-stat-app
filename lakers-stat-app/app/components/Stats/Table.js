@@ -15,9 +15,10 @@ const DataCell = ({ children }) => {
 };
 
 export default function Table({ tableData, showAllPlayers, currentStat }) {
-  // Implemented a switch case because each API data had different keys to access the data
+  // Implemented a switch case because each API data had different object keys to access the data
   let filter = "";
   let value = ""
+
   switch (currentStat) {
     case "points":
       filter = "pts"
@@ -42,9 +43,7 @@ export default function Table({ tableData, showAllPlayers, currentStat }) {
   const dataToDisplay = showAllPlayers ? orderedTableData : top3Data;
 
   return (
-    <div
-      className={`w-full ${showAllPlayers ? 'max-h-[400px] overflow-y-scroll' : 'overflow-auto'} rounded-sm shadow-md`}
-    >
+    <div className={`w-full ${showAllPlayers ? 'max-h-[400px] overflow-y-scroll' : 'overflow-auto'} rounded-sm shadow-md`}>
       <table className="w-full">
         <thead>
           <tr>

@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <main>
       <section className="relative flex justify-center">
+        {/* Hero Banner Image*/}
         <Image
           src="/images/image-9.jpeg"
           alt="Lakers Floor Court"
@@ -14,6 +15,7 @@ export default function Home() {
           className="h-[580px] w-full"
           />
 
+        {/* Hero Banne Text */}
         <div className="absolute text-white mt-32 text-center px-3">
           <h1 className="md:text-[72px] text-[40px] font-bold leading-tight">
             Rise Above the Rest
@@ -30,6 +32,7 @@ export default function Home() {
               { rightArrow }
             </span>
           </Link>
+
         </div>
       </section>
     </main>
