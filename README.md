@@ -5,7 +5,7 @@ Lakers Stat App is a responsive web application designed to showcase the top 3 s
 
 ## Visit Website 
 
-View the Lakers Stat App [here](http://http://20.64.250.156)!
+View the Lakers Stat App [here](http://20.64.250.156)!
 <div style="display: flex; justify-content: space-around;">
   <img width="600" alt="Screenshot 1" src="https://github.com/user-attachments/assets/0b729e68-4ae7-429c-a7e6-95bf88100a75">
   <img width="600" alt="Screenshot 2" src="https://github.com/user-attachments/assets/e8ff584d-3c7b-4bca-8e27-9750a33ba372">
