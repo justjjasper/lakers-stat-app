@@ -5,7 +5,7 @@ import { rightArrow } from "@/public/images/svgIcons";
 export default function Home() {
   return (
     <main>
-      <section className="relative flex justify-center">
+      <section className="relative flex justify-center mb-5">
         {/* Hero Banner Image*/}
         <Image
           src="/images/image-9.jpeg"
@@ -15,7 +15,7 @@ export default function Home() {
           className="h-[580px] w-full"
           />
 
-        {/* Hero Banne Text */}
+        {/* Hero Banner Text */}
         <div className="absolute text-white mt-32 text-center px-3">
           <h1 className="md:text-[72px] text-[40px] font-bold leading-tight">
             Rise Above the Rest
