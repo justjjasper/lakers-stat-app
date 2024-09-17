@@ -1,7 +1,7 @@
 # [Lakers Stat App](http://20.64.250.156)
 
 ## Description
-Lakers Stat App is a responsive web application designed to showcase the top 3 statistics of the Los Angeles Lakers team. This app pulls real-time data from APIs to display key performance metrics such as points, rebounds, and three-pointers. The app features a clean and modern design built with Next.js, React, and Tailwind CSS, and is deployed on Azure Cloud for reliable and scalable performance.
+Lakers Stat App is a responsive web application designed to showcase the top 3 statistics of the Los Angeles Lakers team. This app pulls real-time data from APIs to display points, rebounds, and three-pointers. The app features a clean and modern design built with Next.js, React, and Tailwind CSS, and is deployed on Azure Cloud for reliable and scalable performance.
 
 ## Visit Website 
 
