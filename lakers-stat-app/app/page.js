@@ -13,6 +13,7 @@ export default function Home() {
           height={580}
           width={400}
           className="h-[580px] w-full"
+          priority={true}
           />
 
         {/* Hero Banner Text */}
