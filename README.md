@@ -28,7 +28,7 @@ To get a local copy up and running, follow these steps:
 
 1. **Clone the Repository**
 ```bash
-git clone [https://github.com/your-username/lakers-stat-app.git](https://github.com/justjjasper/lakers-stat-app.git)
+git clone https://github.com/justjjasper/lakers-stat-app.git
 ```
 2. **Install the Node Modules**
 ```bash
