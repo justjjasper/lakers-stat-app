@@ -27,13 +27,13 @@ export default async function Stats({ params, searchParams }) {
 
   try{
     return (
-      <main className="xl:mx-60 lg:mx-36 sm:mx-12 mx-2 xsm:p-10 p-5 mb-10 bg-white border-2 shadow-sm rounded-md">
+      <section className="xl:mx-60 lg:mx-36 sm:mx-12 mx-2 xsm:p-10 p-5 mb-10 bg-white border-2 shadow-sm rounded-md">
         <h2 className="sm:text-[28px] xsm:text-[24px] text-[19px] font-bold">Los Angeles Lakers Stats 2020-21</h2>
 
         <ButtonSection currentStat={currentStat} showAllPlayers={showAllPlayers}/>
         <Table currentStat={currentStat} showAllPlayers={showAllPlayers} tableData={tableData}/>
         <FantasyDraftPromo showAllPlayers={showAllPlayers} />
-      </main>
+      </section>
     )
   } catch(error) {
     return (
