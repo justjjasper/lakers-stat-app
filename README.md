@@ -34,7 +34,13 @@ git clone https://github.com/justjjasper/lakers-stat-app.git
 ```bash
 npm install
 ```
-3. **Run the Client**
+3. **Add the Environment Variables (Ask me for the API URLs!)
+```bash
+NEXT_PUBLIC_POINTS_API= ""
+NEXT_PUBLIC_REBOUNDS_API= ""
+NEXT_PUBLIC_THREE_POINTERS_API= ""
+```
+5. **Run the Client**
 ```bash
 npm run dev
 ```
